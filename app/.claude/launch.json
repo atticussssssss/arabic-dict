@@ -1,0 +1,12 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "arabic-dict",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev", "--", "--port", "5173", "--strictPort"],
+      "cwd": "/Users/atticus/Desktop/考研课本/arabic-dict/app",
+      "port": 5173
+    }
+  ]
+}
