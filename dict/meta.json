@@ -1,9 +1,9 @@
 {
-  "built": "2026-07-14T08:22:21.042Z",
+  "built": "2026-07-15T06:41:30.269Z",
   "lemmas": 26013,
   "chunkSize": 400,
   "withZh": 17914,
-  "withRoot": 9404,
+  "withRoot": 10851,
   "formKeys": 274879,
   "formShards": [
     "662",
