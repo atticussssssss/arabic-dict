@@ -1,0 +1,48 @@
+{
+  "name": "阿拉伯语词典 قاموس",
+  "short_name": "阿语词典",
+  "description": "阿拉伯语↔中文离线查词:词根、派生类型、词形变化、生词本与专四逐词解析",
+  "lang": "zh-CN",
+  "dir": "ltr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "theme_color": "#0f766e",
+  "background_color": "#faf9f6",
+  "categories": ["education", "books", "productivity"],
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "专四解析",
+      "short_name": "解析",
+      "description": "逐词拆解一句阿拉伯语",
+      "url": "./?tab=analyze"
+    },
+    {
+      "name": "生词本",
+      "short_name": "生词本",
+      "description": "复习收藏的单词",
+      "url": "./?tab=wordbook"
+    }
+  ]
+}
