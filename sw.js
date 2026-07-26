@@ -4,9 +4,9 @@
  * 源文件里保留可运行的默认值,所以直接看这个文件也是合法 JS。
  * 改写靠行尾的 /*__XXX__*\/ 标记做正则定位 —— 别删这些注释。
  */
-const BUILD = '20a742d9a7'; /*__BUILD__*/
+const BUILD = 'fd6f5eb2b6'; /*__BUILD__*/
 const DATA_VERSION = '9a19888a6b'; /*__DATA__*/
-const APP_SHELL = ["./","./index.html","./manifest.webmanifest","./assets/index-BHz3YuKq.js","./assets/index-QklgQS2S.css","./icons/apple-touch-icon.png","./icons/favicon-32.png","./icons/icon-192.png","./icons/icon-512.png","./icons/icon-maskable-512.png"]; /*__SHELL__*/
+const APP_SHELL = ["./","./index.html","./manifest.webmanifest","./assets/index-VPnPuwTr.js","./assets/index-QklgQS2S.css","./icons/apple-touch-icon.png","./icons/favicon-32.png","./icons/icon-192.png","./icons/icon-512.png","./icons/icon-maskable-512.png"]; /*__SHELL__*/
 
 // sw.js 位于部署根目录,所以它自己的位置就是 scope(线上是 /arabic-dict/)
 const BASE = new URL('./', self.location).href;
